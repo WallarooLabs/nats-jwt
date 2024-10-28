@@ -1,4 +1,4 @@
-module github.com/nats-io/jwt/v2
+module github.com/wallaroolabs/nats-jwt
 
 go 1.22
 
