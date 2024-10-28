@@ -118,6 +118,7 @@ func serialize(v interface{}) (string, error) {
 	if err != nil {
 		return "", err
 	}
+	fmt.Printf("jwt.encode: %s\n", j)
 	return encodeToString(j), nil
 }
 
